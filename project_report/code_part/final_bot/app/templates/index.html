@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>某科学的聊天机器人</title>
+ <meta name="Keywords" content="最可爱的chatbot！">
+ <meta name="Description" content="程序设计II2022春课程大作业，不断优化中...">
+<link rel="stylesheet" type="text/css" href="{{ url_for('static', filename = 'index.css') }}"/>
+<link rel="shortcut icon" href="{{ url_for('static', filename = 'img/ico.png') }} ">
+<script src="{{ url_for('static', filename = 'echarts.js')}}" type="text/javascript" charset="utf-8"></script>
+<script src="{{ url_for('static', filename = 'jquery-1.11.1.min.js')}}" type="text/javascript" charset="utf-8"></script>
+<body>
+	<div id="top"><a>ChatBot</a></div>
+	<div id="gif">
+		<div class="container">
+			<div id="chatbot">
+			  <div class="dot"></div>
+			  <div class="dot"></div>
+			  <div class="dot"></div>
+			</div>
+			<div id="chatbot-corner"></div>
+			<div id="antenna">
+			  <div id="beam"></div>
+			  <div id="beam-pulsar"></div>
+			</div>
+		  </div>
+	</div>
+	<div id="box">
+		<div class="b-head">
+			<img  class="h-img" alt="" src="{{ url_for('static', filename = 'img/logo.png')}}" width=60 height=60/>
+			<span class="h_span">Feel free to ask me anything!</span>
+		</div>
+		<div class="b-body">
+			<div class="rotWord">
+				<span><img alt="" src="{{ url_for('static', filename = 'img/rot.png')}}" width=40 height=40/></span>
+
+				<a>哦嗨哟！</a>
+			</div>
+		</div>
+		<div class="b-footer">
+				<input type="text" name="text" id="f-left" placeholder="输入你想说的话..."/>
+				<div id="btn">发送</div>
+		</div>
+	</div>
+	
+
+  
+  <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/echarts@5.3.1/dist/echarts.min.js"></script>
+  <a1 href="#" class="cta" id="btn2">
+	<span>Click me</span>
+	<svg width="13px" height="10px" viewBox="0 0 13 10">
+	  <path d="M1,5 L11,5"></path>
+	  <polyline points="8 1 12 5 8 9"></polyline>
+	</svg>
+  </a1>
+  
+  <div id="container" ></div>	
+</body>
+
+<script type="text/javascript" src="{{ url_for('static', filename = 'chart.js')}}"></script>
+<script src="{{ url_for('static', filename = 'bot.js')}}" type="text/javascript" charset="utf-8"></script>
+</html>
+
+
+

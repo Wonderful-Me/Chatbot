@@ -1,0 +1,37 @@
+聊天记录2022-05-18 16:22:59.560898:
+user:你好
+chatbot:你好
+user:你是谁啊
+chatbot:陌生人
+user:好吧
+chatbot:嘿嘿
+user:你在哪里啊
+chatbot:在学校呢
+user:现在还在上课吗
+chatbot:是呀
+user:好巧，我也是
+chatbot:哈哈，我们周六还有课呢
+user:啊这，有点惨啊
+chatbot:你不是还有天么
+user:嗯对
+chatbot:真好
+user:哈哈哈
+chatbot:你也好
+user:确实嘿
+chatbot:嘿嘿
+user:你们 那边天气怎嘛样
+chatbot:一天比一天好，万里晴朗
+user:真的假的
+chatbot:真的呀
+user:我们这边也还不错，就是有点热
+chatbot:还好啦，我们这边也冷的不行
+user:好的吧
+chatbot:你们那天不是有暖气吗？
+user:嗯对，冬天确实有
+chatbot:我们这边没暖气，但还是有点冷
+user:要是有就好了
+chatbot:嗯嗯，就是，我们这儿也冷，不能带多厚的衣服，一个个
+user:哈哈哈
+chatbot:嗯嗯，就是，太冷了，所以一直没买
+user:知道啦
+chatbot:嗯嗯
